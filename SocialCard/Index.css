@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+#canvas {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding-bottom: 550px;
+}
+
+#userinfo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+
+}
+
+#dropdownMenuButton{
+
+    color: grey;
+    background-color: white;
+    border: none;
+
+}
+
+#name{
+
+    margin-left: -240px;
+
+}
+
+#name #nickname{
+
+    padding-top: 10px;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+#name #username{
+
+    color: gray;
+
+}
+
+#canvas #userinfo img{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 150px;
+    margin-left: 10px;
+
+}
+
+#description{
+
+    padding: 10px;
+    margin-bottom: 0;
+    font-family: "Gill Sans", sans-serif;
+    font-size: larger;
+
+}
+
+#interactions, #likebutton, #comments, #save{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#interactions{
+
+    gap: 170px;
+
+}
+
+#interactions p{
+
+    margin: auto;
+
+}
